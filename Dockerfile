@@ -19,3 +19,5 @@ RUN git clone https://github.com/rapid7/metasploit-framework.git \
 WORKDIR /root/
 
 RUN msfupdate
+
+CMD ["msfconsole"]
